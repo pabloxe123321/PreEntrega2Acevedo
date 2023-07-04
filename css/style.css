@@ -1,159 +1,180 @@
-*{
-   margin: 0;
-   padding: 0; 
+* {
+  margin: 0;
+  padding: 0;
 }
 
 .titulo {
-    color: lightgreen;
-    font-weight: 400;
-    font-size: 80px ;
-    text-align: center;
-    font-family: 'Wix Madefor Display', sans-serif;
-    font-weight: 800;
+  color: lightgreen;
+  font-weight: 400;
+  font-size: 80px;
+  text-align: center;
+  font-family: "Wix Madefor Display", sans-serif;
+  font-weight: 800;
+}
 
+body header nav {
+  list-style-type: none;
+  text-align: center;
+  font-family: "Wix Madefor Display", sans-serif;
+  margin: 0;
 }
-.navegacion {
-    list-style-type: none;
-    text-align: center;
-    font-family: 'Wix Madefor Display', sans-serif;
-    margin: 0;
-    
-    
-    
-    
+body header nav a {
+  text-decoration: none;
+  color: #000000;
+  padding: 1px;
 }
-.navegacion a {
-    text-decoration: none;
-    color:#000000;
-    padding: 1px;
-    
-}
-.navegacion li {
-    display: inline-block;
-    
-    
-}
+
 footer img {
-    width: 30px ;
-    height: 30px ;
+  width: 30px;
+  height: 30px;
 }
-.fotitos{
-    width: 150px ;
-    height: 150px ;
-    
 
+.fotitos {
+  width: 150px;
+  height: 150px;
 }
-.texto{
-    margin-bottom: 50px;
-    margin-left: 30px;
-    font-family: 'Wix Madefor Display', sans-serif;
+
+.texto {
+  margin-bottom: 50px;
+  margin-left: 30px;
+  font-family: "Wix Madefor Display", sans-serif;
 }
-.titulo2{
-    margin: 70px 0px 20px 100px;
-    font-size: 70px;
-    font-family: 'Wix Madefor Display', sans-serif;
-    
+
+.titulo2 {
+  margin: 70px 0px 20px 100px;
+  font-size: 70px;
+  font-family: "Wix Madefor Display", sans-serif;
 }
-.pochita{
-    width: 450px ;
-    height: 450px ;
-    
+
+.pochita {
+  width: 450px;
+  height: 450px;
+  margin-left: 5vw;
 }
-body article p{
-    margin-left: 500px;
-    font-family: 'Wix Madefor Display', sans-serif;
-    
+
+body section {
+  padding: 20px;
 }
-body article div{
-    margin-left: 800px;
-    font-family: 'Wix Madefor Display', sans-serif;
-    
+body section div {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
 }
+body section div img {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 20px;
+}
+
 main h1 {
-    font-family: 'Wix Madefor Display', sans-serif;
-    font-size: 50px;
-    margin: 0px 100px 30px 100px;
+  font-family: "Wix Madefor Display", sans-serif;
+  font-size: 50px;
+  margin: 0px 100px 30px 100px;
 }
-.mapa{
-    margin-left: 100px;
-}
-footer p{
-    font-size: 15px;
-    font-family: 'Wix Madefor Display', sans-serif;
 
-
+.mapa {
+  display: flex;
+  margin: 10vw;
+  width: 80vw;
 }
+
+footer p {
+  font-size: 15px;
+  font-family: "Wix Madefor Display", sans-serif;
+}
+
 .fotos img {
-    height: 200px ;
-    width: 200px ;
-    margin: 10px;
-}
-.fotos{
-    width: fit-content;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap ;
-    margin: 0px;
-
-}
-.col, .col-md-2, .col-sm, .col-sm-12, .row{
-    padding: 0;
-}
-.container{
-    margin:auto;
-    padding: 0px;
-    
-}
-.piedepag{
-    display: flex;
-    flex-wrap: nowrap;
-
-}
-.fotardas{
-    display: flex;
-    flex-direction: column;
-   
-}
-.inicio{
-    display: flex;
-    flex-direction: row;
-    margin-left: 100px;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
 }
 
-.videoprint{
-    width: 300px;
-    height: 300px;
+.fotos img:hover {
+  transform: scale(1.05);
 }
 
+.fotos {
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0px;
+}
 
+.col, .col-md-2, .col-sm, .col-sm-12, .row {
+  padding: 0;
+}
 
-@media(max-width: 576px){
+.container {
+  margin: auto;
+  padding: 0px;
+}
 
-.titulo{
+.piedepag {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.fotardas {
+  display: flex;
+  flex-direction: column;
+}
+
+.inicio {
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+}
+
+.videoprint {
+  width: 300px;
+  height: 300px;
+}
+
+.productoDetalle {
+  display: flex;
+}
+
+#descripcion {
+  margin-left: 10vw;
+}
+
+.carrito {
+  text-decoration: none;
+  color: #000000;
+  border: solid 1px;
+  background-color: lightgreen;
+}
+
+@media (max-width: 576px) {
+  .titulo {
     font-size: 50px;
     margin: 0px;
-
-}
-.navegacion{
+  }
+  .navegacion {
     font-size: 12px;
-}
-.fotardas{
+  }
+  .fotardas {
     display: flex;
     flex-direction: column;
-
-
-}
-.inicio{
+  }
+  .inicio {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0px;
-
-}
-.videoprint{
+  }
+  .videoprint {
     width: 200px;
     height: 200px;
+  }
+  .pochita {
+    width: 150px;
+    height: 150px;
+  }
+  .titulo2 {
+    font-size: 50px;
+  }
 }
 
-
-}
+/*# sourceMappingURL=style.css.map */
