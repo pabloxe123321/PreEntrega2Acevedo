@@ -112,7 +112,6 @@ footer p {
 
 .piedepag {
   display: flex;
-  flex-wrap: nowrap;
 }
 
 .fotardas {
@@ -131,19 +130,30 @@ footer p {
   height: 300px;
 }
 
-.productoDetalle {
-  display: flex;
-}
-
 #descripcion {
-  margin-left: 10vw;
+  margin-left: 5vw;
+  margin-top: 10px;
 }
 
 .carrito {
   text-decoration: none;
-  color: #000000;
-  border: solid 1px;
-  background-color: lightgreen;
+  color: white;
+  border: 4px;
+  background-color: grey;
+}
+
+.pochitaproducto {
+  font-family: "Wix Madefor Display", sans-serif;
+  font-size: 30px;
+}
+
+.distancia {
+  margin-bottom: 200px;
+}
+
+.tarara {
+  margin-left: 10px;
+  flex-wrap: wrap;
 }
 
 @media (max-width: 576px) {
@@ -169,11 +179,15 @@ footer p {
     height: 200px;
   }
   .pochita {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
   }
   .titulo2 {
     font-size: 50px;
+  }
+  .tarara {
+    display: flex;
+    flex-direction: column;
   }
 }
 
